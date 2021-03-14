@@ -20,10 +20,10 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
+      
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_brand: test
           publish_dir: ./public
+          cname: rezasafari.me
