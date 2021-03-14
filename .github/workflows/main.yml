@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - develop  # Set a branch to deploy
+      - development  # Set a branch to deploy
 
 jobs:
   deploy:
