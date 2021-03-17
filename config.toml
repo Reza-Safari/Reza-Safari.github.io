@@ -1,5 +1,5 @@
 baseURL = "https://rezasafari.me"
-title   = "Reza Safari"
+title   = "Reza Safari - About and Writings"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -7,11 +7,10 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+rssLimit  = 3  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial-Sharealike 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
-# disqusShortname = ""
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -34,7 +33,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-posts = "/posts/:year/:month/:title/"
+posts = "/posts/:year/:month/:title/" #TODO: Change posts to Writings
 
 [author]
 name = "Reza Safari"
@@ -42,7 +41,7 @@ name = "Reza Safari"
 [blackfriday]
 hrefTargetBlank = true
 
-[taxonomies]
+[taxonomies] #TODO: Mess with taxonomies
 tag      = "tags"
 category = "categories"
 series   = "series"
@@ -54,9 +53,8 @@ dateformNum     = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04"
 
 # Metadata mostly used in document's head
-#
-description = "Home & Writings of Reza Safari - Data Scientist - Analytics - Service Design"
-keywords = ""
+description = "Home & Writings of Reza Safari"
+keywords = ["Reza Safari", "Data Science", "Analytics", "Service Design", "Design Thinking", "Consultant", "Management Consultant"]
 images = [""]
 
 homeSubtitle = "Consultant | Decision Science | Service Design"
@@ -138,38 +136,30 @@ name = "twitter"
 url  = "https://twitter.com/rezansafari"
 
 [[params.social]]
-name = "email"
-url  = "mailto:rezansafari@gmail.com"
-
-[[params.social]]
-name = "github"
-url  = "https://github.com/"
-
-[[params.social]]
 name = "linkedin"
-url  = "https://www.linkedin.com/"
+url  = "https://www.linkedin.com/in/rezansafari"
 
 [[params.social]]
-name = "stackoverflow"
-url  = "https://www.stackoverflow.com/"
+name = "kaggle"
+url  = "https://www.kaggle.com/rsafari"
+
+[[params.social]]
+name = "medium"
+url  = "https://medium.com/@rezansafari"
+
 
 [languages]
 [languages.en]
-subtitle  = "Hello Friend NG Theme"
+subtitle  = "Home & Writings of Reza Safari"
 weight    = 1
 copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>'
-
-[languages.fr]
-subtitle  = "Hello Friend NG Theme"
-weight    = 2
-copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
 [[menu.main]]
 identifier = "about"
 name       = "About"
 url        = "about/"
-[[menu.main]]
+[[menu.main]] #TODO:Change posts to writings
 identifier = "posts"
 name       = "Posts"
 url        = "posts/"
