@@ -1,19 +1,9 @@
 +++
-title = "About"
-date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
-[ author ]
-  name = "Hugo Authors"
+title = "About - Reza Safari"
+date = "2021-03-21"
+aliases = ["about-reza","about-me","contact"]
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Reza has experience using data driven methodologies to drive insight for product decisions through consulting methodologies. With a background in Electrical Engineering he aims to use design thinking and lean startup methodologies to deliver further value to businesses.
 
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Reza has a skill in contributing to strategy, operation and product decisions across business units. This involves optimising processes with a constant drive for results, and looking to be able to solve greater challenges.
