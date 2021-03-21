@@ -33,7 +33,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-posts = "/posts/:year/:month/:title/" #TODO: Change posts to Writings
+posts = "/writings/:year/:month/:title/"
 
 [author]
 name = "Reza Safari"
@@ -66,7 +66,7 @@ homeSubtitle = "Consultant | Decision Science | Service Design"
 #
 # gitUrl = ""
 
-# Set disableReadOtherPosts to true in order to hide the links to other posts.
+# Set disableReadOtherPosts to true in order to hide the links to other writings.
 #
 disableReadOtherPosts = false
 
@@ -153,7 +153,7 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target
 identifier = "about"
 name       = "About"
 url        = "about/"
-[[menu.main]] #TODO:Change posts to writings
-identifier = "posts"
-name       = "Posts"
-url        = "posts/"
+[[menu.main]]
+identifier = "writings"
+name       = "Writings"
+url        = "writings/"

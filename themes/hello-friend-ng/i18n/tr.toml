@@ -22,7 +22,7 @@ other = "Ana Sayfa"
 other = "Sayfa bulunamadı…"
 
 
-# posts/single.html
+# writings/single.html
 #
 [readingTime]
 one   = "Bir dakika"

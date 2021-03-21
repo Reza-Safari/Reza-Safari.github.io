@@ -22,7 +22,7 @@ other = "Главная"
 other = "Упс, страница не найдена…"
 
 
-# posts/single.html
+# writings/single.html
 #
 [readingTime]
 one   = "{{ .Count }} минута"

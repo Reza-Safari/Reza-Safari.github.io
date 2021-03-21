@@ -22,7 +22,7 @@ other = "ホームページ"
 other = "あっ、ページが見つかりません……"
 
 # Please add hasCJKLanguage = true under [languages.ja] for the below to behave correctly
-# posts/single.html
+# writings/single.html
 #
 [readingTime]
 one   = "一分"

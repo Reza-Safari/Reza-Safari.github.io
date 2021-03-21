@@ -22,7 +22,7 @@ other = "Início"
 other = "Oops, página não encontrada…"
 
 
-# posts/single.html
+# writings/single.html
 #
 [readingTime]
 one   = "Um minuto"

@@ -22,7 +22,7 @@ other = "主頁"
 other = "噢，找不到頁面……"
 
 # Please add hasCJKLanguage = true under [languages.zh-tw] for the below to behave correctly
-# posts/single.html
+# writings/single.html
 #
 [readingTime]
 one   = "一分鐘"

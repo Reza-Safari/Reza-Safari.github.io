@@ -22,7 +22,7 @@ other = "Acasă"
 other = "Ups, pagina nu a fost găsită…"
 
 
-# posts/single.html
+# writings/single.html
 #
 [readingTime]
 one   = "Un minut"
