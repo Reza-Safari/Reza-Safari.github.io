@@ -11,9 +11,6 @@ categories : [
 "Newsletter"
 ]
 ---
-
-## Interesting Reads - 2020-11-21
-
 A rundown of interesting / neat / thought provoking encountered during the week.
 
 ### Reading
