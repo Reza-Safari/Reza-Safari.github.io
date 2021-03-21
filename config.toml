@@ -2,6 +2,7 @@ baseURL = "https://rezasafari.me"
 title   = "Reza Safari"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+googleAnalyticsID = "G-TDDL4TK4K5"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
