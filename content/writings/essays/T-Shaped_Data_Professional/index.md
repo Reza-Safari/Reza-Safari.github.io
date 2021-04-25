@@ -11,8 +11,6 @@ categories : [
 "Essay"
 ]
 ---
-# T-Shaped Data Professional or: How I Learned to Stop Worrying and Love the Specialist
-
 Data Science is a young, growing field. It’s a field where if you’re new, you’re not sure whether to be a specialist or a generalist and if you’re already in the field, new tech comes along so often making it hard to figure out what skills you need to maximize your chances long-term?
 
 It’s a field where you can find job descriptions of a dizzying variety, so let’s look at 2 here (pseudo-randomly selected from postings in NYC) to set the scene:
@@ -26,6 +24,7 @@ It’s a field where you can find job descriptions of a dizzying variety, so let
 Would you be using Deep Learning/Tensorflow/PyTorch? Probably Not.Would you be setting up data pipelines and data engineering? Nope.If I were to hazard a guess at to what you’d potentially be doing here, it sounds a lot like product analytics. 
 
 Get some visualizations going, talk to users, maybe design some A/B testing and give the product a better insight into the product(whatever that maybe, an app, website, etc.)A strong basis in inferential statistics (Maybe Bayesian but it’d probably be wasted here) would benefit you far more than experience in Kaggle competitions using Tensorflow. If you prefer talking to people, being in meetings, managing expectations and explaining those statistical ideas you have in simple terms , you’d probably do better than if you’re the quiet genius working away at a 16 page scientific paper.
+
 2. **Data Scientist, Personalization ([Spotify](https://www.glassdoor.com.au/job-listing/data-scientist-personalization-spotify-JV_IC1132348_KO0,30_KE31,38.htm?jl=2624838662&ctt=1553405229112))** 
    
 ***Firstly, the responsibilities***. Find out **who** Spotify listeners are, **how** they get value out of Spotify, and **where** Spotify can **develop product** to bring **greater value to users**. Perform **exploratory** analysis for insight into **performance** of machine learning systems. **Communication** with other analytics professionals and Data Scientist.
@@ -45,7 +44,7 @@ Ok, apologies again for being a sensationalist and implying no one knows what’
 
 Where I would vote for refinement of arguments in each article is by introducing the T-Shaped professional. A T-Shaped data professional has specializations, but is also able to contribute and be aware of discussions in the other areas of this wide realm we call Data Science. The T-Shaped data scientist has actually been promoted often, here in an O’Reilly Report in 2013 (over a decade ago when Frozen was first released).
 
-![T-Shaped Data Professional from Analyzing the Abalyzers](images/t-shaped-oreilly.png)
+![T-Shaped Data Professional from Analyzing the Abalyzers](t_shaped_oreilly.png)
 
 [Analyzing the Analyzers by Harlan Harris, Marck Vaisman, Sean Murphy ( O’Reilly Media, Inc.)](https://www.oreilly.com/library/view/analyzing-the-analyzers/9781449368388/)
 
