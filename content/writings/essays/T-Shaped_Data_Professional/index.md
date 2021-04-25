@@ -2,6 +2,7 @@
 title : "T-Shaped Data Professional or: How I Learned to Stop Worrying and Love the Specialist"
 date : "2019-03-24"
 description : "Data-Science career advice from a generalist"
+summary: "Data Science is one of the few interdisciplinary fields which can always use specialists with a broad general knowledge, and a specialization that brings a unique flavor to the formula. Here's why we should aspire to be T-Shaped professionals"
 tags : [
 "Career",
 "Data-Science",

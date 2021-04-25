@@ -2,6 +2,7 @@
 title : "Interesting Reads - August"
 date : "2020-08-09"
 description : "Reza's Interesting finds and reads"
+summary: "Wired Article on Marcus Hutchins - Pareto Efficiency Mario Kart - Python 2019 Dev Survey"
 tags : [
 "Cyber-security",
 "ML",
