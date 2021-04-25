@@ -15,7 +15,7 @@
                 <ul class="posts-list">
                     {{ range .Pages }}
                         <li class="post-item">
-                            <a rel="canonical" href="{{.Permalink}}">
+                            <a href="{{.Permalink}}">
                                 <span class="post-title">{{.Title}}</span>
                                 <span class="post-day">
                                     {{ if .Site.Params.dateformShort }}
