@@ -2,7 +2,7 @@ baseURL = "https://rsafari.com"
 title   = "Reza Safari"
 languageCode = "en-us"
 theme = "hello-friend-ng"
-googleAnalyticsID = "G-TDDL4TK4K5"
+
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -86,6 +86,9 @@ customJS  = []
 # Toggle this option need to rebuild SCSS, requires extended version of Hugo
 #
 justifyContent = false  # Set "text-align: justify" to .post-content.
+
+#GA4
+googleAnalyticsID = "G-TDDL4TK4K5"
 
 # Colors for favicons
 #
