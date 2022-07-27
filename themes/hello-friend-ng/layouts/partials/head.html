@@ -68,4 +68,6 @@
 {{- end }}
 
 <!-- GA4 -->
-{{ partial "analytics-gtag.html" . }}
+{{- if .Site.Params.googleAnalyticsID -}}
+    {{ partial "analytics-gtag.html" . }}
+{{ end }}
