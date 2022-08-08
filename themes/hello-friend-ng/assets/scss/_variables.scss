@@ -10,7 +10,7 @@ $light-border-color: #dcdcdc;
 $light-table-color: #dcdcdc;
 */
 
-/* Light Color Theme - Red */
+/* Light Color Theme - Light Pink
 $light-background: #FFFAFA;
 $light-background-secondary: #CD5C5C;
 $light-background-header: #FFE4E1;
@@ -18,8 +18,9 @@ $light-color: #000000;
 $light-color-secondary: #696969;
 $light-border-color: #808080;
 $light-table-color: #808080;
+*/
 
-/* Dark Color Theme - Light Blue */
+/* Dark Color Theme - Light Blue
 $dark-background: #21232d;
 $dark-background-secondary: #4682B4;
 $dark-background-header: #0a4a6d;
@@ -27,7 +28,31 @@ $dark-color: #EAEBEB;
 $dark-color-secondary: #8B8D92;
 $dark-border-color: #A5A5A5;
 $dark-table-color: #A5A5A5;
+*/
 
+/* Penumbra Color Scheme from https://github.com/nealmckee/penumbra */
+
+/* Light Penumbra */
+$light-background: #FFF7ED;
+$light-background-secondary: #FFFDFB;
+/* Cyan */
+$light-background-header: #1AC2E1;
+$light-color: #3E4044;
+$light-color-secondary: #0D0F13;
+/* Red */
+$light-border-color: #F48E74;
+$light-table-color: #F48E74;
+
+/* Dark Penumbra */
+$dark-background: #181B1F;
+$dark-background-secondary: #0D0F13;
+/* Cyan */
+$dark-background-header: #1AC2E1;
+$dark-color: #FFFDFB;
+$dark-color-secondary: #636363;
+/* Red */
+$dark-border-color: #F48E74;
+$dark-table-color: #F48E74;
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
