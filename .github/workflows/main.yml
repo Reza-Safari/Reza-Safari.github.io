@@ -3,7 +3,7 @@ name: Actions to push from development branch to Master (push public directory i
 on:
   push:
     branches:
-      - development  # Set a branch to deploy
+      - master  # Set a branch to deploy
   pull_request:
 
 jobs:
@@ -31,5 +31,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: master
+          publish_branch: live
           cname: rsafari.com
