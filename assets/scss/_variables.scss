@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Light Penumbra */
+$light-background: #FFF7ED;
+$light-background-secondary: #FFFDFB;
+$light-background-header: #1AC2E1;
+$light-color: #3E4044;
+$light-color-variant: black;
+$light-color-secondary: #0D0F13;
+$light-border-color: #F48E74;
+$light-table-color: #F48E74;
+
+/* Dark Penumbra */
+$dark-background: #181B1F;
+$dark-background-secondary: #0D0F13;
+$dark-background-header: #1AC2E1;
+$dark-color: #FFFDFB;
+$dark-color-variant: white;
+$dark-color-secondary: #636363;
+$dark-border-color: #F48E74;
+$dark-table-color: #F48E74;
+
+$media-size-phone: "(max-width: 684px)";
+$media-size-tablet: "(max-width: 900px)";
+
+/* Variables for js, must be the same as these in @custom-media queries */
+:root {
+  --phoneWidth: (max-width: 684px);
+  --tabletWidth: (max-width: 900px);
+}
+
+$max-width: 860px;
+
+$table-min-width: 370px;
