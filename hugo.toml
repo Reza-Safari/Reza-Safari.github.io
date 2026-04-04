@@ -46,7 +46,6 @@ category = "categories"
 series   = "series"
 
 [params]
-author          = "Reza Safari"
 dateform        = "Jan 2, 2006"
 dateformShort   = "Jan 2"
 dateformNum     = "2006-01-02"

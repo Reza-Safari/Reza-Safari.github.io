@@ -5,6 +5,15 @@ on:
     branches:
       - master  # Set a branch to deploy
   pull_request:
+    paths:
+      - "layouts/**"
+      - "assets/**"
+      - "themes/**"
+      - "hugo.toml"
+      - ".github/workflows/main.yml"
+      - "tests/**"
+      - "package.json"
+      - "package-lock.json"
 
 jobs:
   deploy:
@@ -26,7 +35,54 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Detect parity-relevant changes (PR only)
+        id: changes
+        if: github.event_name == 'pull_request'
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            parity:
+              - 'layouts/**'
+              - 'assets/**'
+              - 'themes/**'
+              - 'hugo.toml'
+              - '.github/workflows/main.yml'
+              - 'tests/**'
+              - 'package.json'
+              - 'package-lock.json'
+
+      - name: Setup Node
+        if: github.event_name == 'push' || steps.changes.outputs.parity == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install parity dependencies
+        if: github.event_name == 'push' || steps.changes.outputs.parity == 'true'
+        run: npm ci
+
+      - name: Install Playwright browsers
+        if: github.event_name == 'push' || steps.changes.outputs.parity == 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Run parity regression suite
+        if: github.event_name == 'push' || steps.changes.outputs.parity == 'true'
+        run: npm run parity:build && playwright test -c tests/playwright.config.mjs --project=chromium
+
+      - name: Upload parity failure artifacts
+        if: failure() && (github.event_name == 'push' || steps.changes.outputs.parity == 'true')
+        uses: actions/upload-artifact@v4
+        with:
+          name: parity-debug-artifacts
+          path: |
+            public
+            playwright-report
+            test-results
+          retention-days: 7
+
       - name: Deploy
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

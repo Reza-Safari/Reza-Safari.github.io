@@ -1,0 +1,14 @@
+{
+  "name": "rsafari-com-parity",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Parity regression checks for rsafari.com",
+  "scripts": {
+    "parity:build": "hugo --minify --baseURL http://127.0.0.1:4173/ --destination public",
+    "parity:playwright": "playwright test -c tests/playwright.config.mjs",
+    "parity:test": "npm run parity:build && npm run parity:playwright"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

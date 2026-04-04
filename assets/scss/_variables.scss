@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
-/* Light Penumbra */
-$light-background: #FFF7ED;
-$light-background-secondary: #FFFDFB;
-$light-background-header: #1AC2E1;
-$light-color: #3E4044;
+/* Light theme color */
+$light-background: #fff;
+$light-background-secondary: #eaeaea;
+$light-background-header: #fafafa;
+$light-color: #222;
 $light-color-variant: black;
-$light-color-secondary: #0D0F13;
-$light-border-color: #F48E74;
-$light-table-color: #F48E74;
+$light-color-secondary: #999;
+$light-border-color: #dcdcdc;
+$light-table-color: #dcdcdc;
 
-/* Dark Penumbra */
-$dark-background: #181B1F;
-$dark-background-secondary: #0D0F13;
-$dark-background-header: #1AC2E1;
-$dark-color: #FFFDFB;
+/* Dark theme colors */
+$dark-background: #232425;
+$dark-background-secondary: #3b3d42;
+$dark-background-header: #1b1c1d;
+$dark-color: #a9a9b3;
 $dark-color-variant: white;
-$dark-color-secondary: #636363;
-$dark-border-color: #F48E74;
-$dark-table-color: #F48E74;
+$dark-color-secondary: #b3b3bd;
+$dark-border-color: #4e4e57;
+$dark-table-color: #4e4e57;
 
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
@@ -29,6 +29,5 @@ $media-size-tablet: "(max-width: 900px)";
   --tabletWidth: (max-width: 900px);
 }
 
+/* Content */
 $max-width: 860px;
-
-$table-min-width: 370px;
